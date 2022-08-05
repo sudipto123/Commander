@@ -10,7 +10,7 @@ builder.Services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
 
 builder.Services.AddControllers();
 
-builder.Services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
