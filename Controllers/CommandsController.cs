@@ -30,7 +30,13 @@ namespace Commander.Controllers
         public ActionResult <Command> GetCommandById(int id)
         {
             var commandItem = _repository.GetCommandById(id);
-            return Ok(commandItem);
+
+            if(commandItem != null){
+                return Ok(commandItem);
+            }
+            else{
+                return NotFound();
+            }            
         }
     }
 }
