@@ -22,10 +22,10 @@ namespace Commander.Controllers
 
         //GT api/commands
         [HttpGet]
-        public ActionResult <IEnumerable<Command>> GetAllCommands()
+        public ActionResult <IEnumerable<CommandReadDto>> GetAllCommands()
         {
             var commnadItems = _repository.GetAllCommands();
-            return Ok(commnadItems);
+            return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commnadItems));
         }
 
         //GET api/commands/{id}
