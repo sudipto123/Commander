@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "K2K++Sv8o5zIikDbVwSGsIPREdCxeaUqsPhTCzR4d/PwkhGx2zHizdckNc43BsE3k5BD4TiwiX1kIVXXv6fS9g==",
+  "dgSpecHash": "QNdDMetiuTu23D+G2psE13nNdOwJbfZOED9XKiTP+UgUrjN61AAv+asWmjjVRZLIm/GzcmOC1bbCQL4eoBN0yA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dutta\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\dutta\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\azure.core\\1.20.0\\azure.core.1.20.0.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
-    "C:\\Users\\dutta\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\dutta\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.0-preview2.22096.2\\microsoft.data.sqlclient.5.0.0-preview2.22096.2.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.0-preview2.22084.1\\microsoft.data.sqlclient.sni.runtime.5.0.0-preview2.22084.1.nupkg.sha512",
     "C:\\Users\\dutta\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.6.22329.4\\microsoft.entityframeworkcore.7.0.0-preview.6.22329.4.nupkg.sha512",

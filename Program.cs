@@ -10,7 +10,7 @@ builder.Services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
 
 builder.Services.AddControllers();
 
-//builder.Services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 
 
